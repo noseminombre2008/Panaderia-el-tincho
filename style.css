@@ -1,0 +1,234 @@
+.resolucion{
+    width: 99%;
+    text-align: center;
+}
+
+/**Movil**/
+@media (max-width: 767px){
+
+    .desktop {
+        display: none;
+    }
+    .tablet {
+        display: none;
+    }
+
+
+        /*estilos generales*/
+    body{
+        margin: 0; /*esto es para el margen*/
+        background-color: rgb(236, 230, 205);
+    }
+
+    header{
+    background-color: rgb(80, 123, 115) ;
+    color: rgb(202, 188, 152);
+    padding: 3rem 2rem;
+    }
+
+    #title{
+        font-size: 4rem;
+        text-align: center;
+        }
+
+    /* una manera de poner margen*/
+
+    .principal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .txt{
+        margin-right: 0px;
+    }
+
+    .Logo{
+        width: 150px;
+        height: 150px;
+    }
+
+    .container{
+    width:400px;
+    margin: 0 auto;
+    }
+
+    .container .razon{
+    background-color: rgb(155, 124, 141);
+    margin: 1rem 0;
+    border-radius: 10px;
+    padding: 0.25rem 0;
+    transition: box-shadow 0.5s ease;
+    }
+
+
+    section article h2, section article p{
+    margin: 1rem;
+    }
+
+    section article img{
+    width: 400px
+    }
+    section article h2{
+    text-align: center;
+    }
+
+    .container .razon:hover{
+    box-shadow:  5px -1px 36px 2px rgba(115,90,195,0.49);
+    cursor: pointer;
+    }
+}
+
+
+/**Tablet**/
+@media (min-width: 768px) and (max-width: 990px){
+
+    .desktop {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+
+
+
+        /*estilos generales*/
+    body{
+        margin: 0; /*esto es para el margen*/
+        background-color: rgb(236, 230, 205);
+    }
+
+    header{
+    background-color: rgb(80, 123, 115) ;
+    color: rgb(202, 188, 152);
+    padding: 3rem 3rem;
+    }
+
+    #title{
+        font-size: 4rem;
+        text-align: center;
+        }
+
+    /* una manera de poner margen*/
+
+    .principal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .txt{
+        margin-right: 0px;
+    }
+
+    .Logo{
+        width: 150px;
+        height: 150px;
+    }
+
+    .container{
+    width:400px;
+    margin: 0 auto;
+    }
+
+    .container .razon{
+    background-color: rgb(155, 124, 141);
+    margin: 1rem 0;
+    border-radius: 10px;
+    padding: 0.25rem 0;
+    transition: box-shadow 0.5s ease;
+    }
+
+
+    section article h2, section article p{
+    margin: 1rem;
+    }
+
+    section article img{
+    width: 400px
+    }
+    section article h2{
+    text-align: center;
+    }
+
+    .container .razon:hover{
+    box-shadow:  5px -1px 36px 2px rgba(115,90,195,0.49);
+    cursor: pointer;
+    }
+}
+
+
+/**Escritorio**/
+@media (min-width: 991px){
+
+    .tablet {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+
+        /*estilos generales*/
+    body{
+        margin: 0; /*esto es para el margen*/
+        background-color: rgb(236, 230, 205);
+    }
+
+    header{
+    background-color: rgb(80, 123, 115) ;
+    color: rgb(202, 188, 152);
+    padding: 3rem 2rem;
+    }
+
+    #title{
+        font-size: 4rem;
+        text-align: center;
+        }
+
+    /* una manera de poner margen*/
+
+    .principal{
+        display: flex;
+        justify-content: center;
+    }
+
+    .txt{
+        margin-right: 30px;
+    }
+
+    .Logo{
+        width: 150px;
+        height: 150px;
+    }
+
+    .container{
+    width:400px;
+    margin: 0 auto;
+    }
+
+    .container .razon{
+    background-color: rgb(155, 124, 141);
+    margin: 1rem 0;
+    border-radius: 10px;
+    padding: 0.25rem 0;
+    transition: box-shadow 0.5s ease;
+    }
+
+
+    section article h2, section article p{
+    margin: 1rem;
+    }
+
+    section article img{
+    width: 400px
+    }
+    section article h2{
+    text-align: center;
+    }
+
+    .container .razon:hover{
+    box-shadow:  5px -1px 36px 2px rgba(115,90,195,0.49);
+    cursor: pointer;
+    }
+
+}
